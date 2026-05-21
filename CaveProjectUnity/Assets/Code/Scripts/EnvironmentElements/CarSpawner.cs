@@ -39,7 +39,7 @@ namespace Cave.EnvironmentElements
         [SerializeField]
         private int _maxCarsAtOnce;
 
-        private List<GameObject> _activeCars;
+        private List<GameObject> _activeCars = new List<GameObject>();
 
         private void Start()
         {
